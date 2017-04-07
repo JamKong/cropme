@@ -191,3 +191,6 @@ You should be able to then go on your browser at localhost:9001
 
 If you want to try and see what this is all about:
 [Demo here!](http://standupweb.net/cropmedemo)
+
+### 2017-04-07 修改
+如果要让cropme能够自适应容器的大小，那么就不需要设置width和height，它将会自己去动态获取父级的容器的大小来设置自己的宽高。
